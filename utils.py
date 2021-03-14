@@ -9,6 +9,7 @@ from matplotlib.collections import PatchCollection
 from matplotlib.patches import Rectangle, Circle
 import h5py
 import os
+sys.path.append('/home/gabrielsluz/Jacinle/jaclearn/vision/coco')
 import pycocotools._mask as _mask
 import pycocotools.mask as cocoMask
 
